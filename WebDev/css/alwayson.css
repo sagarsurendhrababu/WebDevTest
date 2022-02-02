@@ -1,0 +1,12 @@
+#alwaysOn{font-size: 14px;}
+#signals{background: linear-gradient(96.04deg, #3B3BE7 0%, #138CF7 52.6%, #03B0FF 100%);}
+#signals img{position: absolute; height: 400px; bottom:-9rem; right: 10%;}
+
+/* Mobile view port */      
+@media screen and (max-width: 598px) {
+ #signals img{position: relative; bottom:0rem;}
+ .alwaysDetails{text-align: center;}
+ #alwaysOn{padding-bottom: 0;}
+ #alwaysOn>div:nth-child(1){margin-bottom: 0;}
+ .alwaysImg{display: block; margin-left: 1.5rem;}
+}

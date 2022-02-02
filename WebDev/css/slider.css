@@ -1,0 +1,23 @@
+#slider{width: 100%; height: 100vh; overflow: hidden; position: relative;}
+#slider>ul{ display: flex; height: 100%; position: relative; transition: all 1.5s ease;}
+#slider>ul>li{width: 100%; height: 100%; position: relative;}
+#slider>ul>li::before{ content: ''; position: absolute;  width: 100%; height: 100%; background-color: rgba(0,0,0,.5);}
+#slider img{width: 100%; height: 100%; object-fit: cover;}
+.slideDetail{position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+.slideDetail h1, .slideDetail h5{color: #fff;}
+.slideDetail h1{margin-bottom: 2rem; font-weight: 600; }
+.slideDetail h5{margin-bottom: 1.5rem; font-weight: 200; text-align: justify;}
+.sliderPoints{position: absolute; width: 100%; height: 80px; bottom: 0; left: 0;}
+.sliderPoints .wrapper>div{width: 150px; height: 5px; background-color: var(--c1); margin: 0 3rem; cursor: pointer;}
+.sliderPoints .wrapper>div:nth-child(1){margin-left: 0;}
+.sliderPoints .wrapper h5{color: #fff; font-weight: 200; margin-top: .5rem;}
+
+/* Mobile view port */      
+@media screen and (max-width: 598px) { 
+    .slideDetail h1{margin-bottom: 2rem; font-weight: 300; line-height: 3.8rem; } 
+    #slider{height: 70vh;}
+    .sliderPoints .wrapper>div{width: 100%; margin: 0 1rem;}
+    .sliderPoints h5{display: none;}
+    .sliderPoints{height: 10px;}    
+
+}

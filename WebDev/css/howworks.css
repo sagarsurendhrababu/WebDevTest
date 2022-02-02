@@ -1,0 +1,15 @@
+#HowWorks{font-size: 14px;}
+#HowWorks li{margin: 0 2%; filter: drop-shadow(20px 20px 15px #bebebe);}
+#HowWorks h1, #HowWorks h4{color: var(--c1); }
+#HowWorks h1{font-size:7em!important;}
+#HowWorks h2{font-weight: 500;}
+#HowWorks h4{font-weight: 600; font-size: 1.7rem;}
+#HowWorks li{padding:0% 1%; height: 300px;}
+
+/* Mobile view port */      
+@media screen and (max-width: 598px) {
+    #HowWorks h1{font-size:7em!important; text-align: center; margin-left: 0;}
+    #HowWorks li{margin: 0 2%; filter: none; height: auto;}
+    #HowWorks{padding-bottom: 0;}
+    
+}

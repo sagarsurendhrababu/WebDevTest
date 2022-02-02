@@ -1,0 +1,14 @@
+#pipline{background-attachment: fixed;}
+#pipline p{font-size: 14px; font-weight: 300;}
+.pipeline-box{background: linear-gradient(96.04deg, #3B3BE7 0%, #138CF7 52.6%, #03B0FF 100%);}
+.piplineIMg img{width: 100%; height: 100%; object-fit: cover;}
+.piplineMini{margin: 0 3%; padding: 1%; filter: drop-shadow(20px 10px 4px #bebebe);}
+.piplineMini i{font-size: 3em; color: var(--c1);}
+.piplineMini h4{font-weight: 500;}
+.piplineMini h2{font-weight:600;}
+
+/* Mobile view port */      
+@media screen and (max-width: 598px) {
+.piplineMini{margin: 0 1%; padding: 1%;}
+.piplineMini h4{font-size: 1.3rem; text-align: center;}    
+}

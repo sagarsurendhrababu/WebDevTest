@@ -1,0 +1,14 @@
+#customglobal{font-size: 14px;}
+#customglobal img{height:700px;}
+#customglobalBox div{filter: drop-shadow(20px 20px 15px rgb(206, 206, 206)); margin-bottom: 5%; text-align: center;}
+#customglobalBox div i{font-size: 4rem; color: var(--c1);}
+#customglobalBox div h4{font-weight: 500;}
+
+/* Mobile view port */      
+@media screen and (max-width: 598px) {
+    #customglobal img{height:auto; width: 80%;}
+    #customglobalBox{margin-left: 0;}
+    #customglobal .wrapper>div{justify-content: center;}
+    #customglobalBox h5{font-weight: 400;}
+    #customglobalBox h3{font-weight: 400;}
+}

@@ -1,0 +1,13 @@
+.logoSerial{height: 11.3rem; background-image: url(../img/dots-bg.jpg); background-repeat: repeat; background-size:15%;}
+.logoSerial div img{height:3rem;}
+#TheBest{overflow: hidden;}
+#TheBest h3{position: relative;}
+#TheBest h3::before{content:''; position: absolute; right: -320px; width: 300px; height: 1px; background-color: rgb(149, 149, 149); transform: translateY(22px);}
+#TheBest h3::after{content:''; position: absolute; left: -320px; width: 300px; height: 1px; background-color: rgb(149, 149, 149); transform: translateY(22px);}
+/* Mobile view port */      
+@media screen and (max-width: 598px) { 
+    .logoSerial div img{margin: 2% 5%;}    
+    #TheBest h3::before,#TheBest h3::after{display: none;}
+    .logoSerial>.wrapper{flex-wrap: wrap;}
+    .logoSerial{margin-bottom: 4rem;}
+}
